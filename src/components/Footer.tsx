@@ -1,6 +1,7 @@
 import React from 'react';
-import { Trees, Shield, Heart, MapPin, Instagram, Mail, Phone } from 'lucide-react';
+import { Shield, MapPin, Instagram, Mail, Phone } from 'lucide-react';
 import { CONTACT_INFO } from '../data/cabanasData';
+import marcaBlanca from '../assets/logos/marca_blanca.png';
 
 export default function Footer() {
   const whatsappUrl = `https://wa.me/${CONTACT_INFO.whatsappRaw}?text=${encodeURIComponent(
@@ -15,7 +16,7 @@ export default function Footer() {
           <div className="md:col-span-5 space-y-4">
             <a href="#" className="flex items-center gap-2 text-white group">
               <img
-                src="/src/assets/logos/marca_blanca.png"
+                src={marcaBlanca}
                 alt="Casas Pardo Logo"
                 className="h-10 w-auto object-contain"
               />

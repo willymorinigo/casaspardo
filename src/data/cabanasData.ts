@@ -1,3 +1,13 @@
+import pardo0 from '../assets/images/general/pardo0.jpeg';
+import pardo1 from '../assets/images/general/pardo1.jpeg';
+import pardo2 from '../assets/images/general/pardo2.jpeg';
+import pardo3 from '../assets/images/general/pardo3.jpeg';
+import pardo4 from '../assets/images/general/pardo4.jpeg';
+import pardo5 from '../assets/images/general/pardo5.jpeg';
+import pardo6 from '../assets/images/general/pardo6.jpeg';
+import pardo7 from '../assets/images/general/pardo7.jpeg';
+import pardo8 from '../assets/images/general/pardo8.jpeg';
+
 export interface Review {
   id: string;
   author: string;
@@ -162,7 +172,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g0',
     title: 'Detalle del Jardín & Cerco Rústico',
     category: 'park',
-    src: '/src/assets/images/general/pardo0.jpeg',
+    src: pardo0,
     alt: 'Plantas silvestres y cerco rústico de varillas de madera en el parque de Casas Pardo',
     caption: 'Plantas silvestres de cortadera y cerco rústico de madera en el predio.',
   },
@@ -170,7 +180,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g1',
     title: 'Cabaña de Madera & Eucalipto Gigante',
     category: 'park',
-    src: '/src/assets/images/general/pardo1.jpeg',
+    src: pardo1,
     alt: 'Cabaña de madera rodeada por un gran eucalipto bajo el cielo azul',
     caption: 'Fachada principal de la cabaña con chimenea, rodeada de frondosos eucaliptos.',
   },
@@ -178,7 +188,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g2',
     title: 'Deck de Madera & Escalones de Acceso',
     category: 'park',
-    src: '/src/assets/images/general/pardo2.jpeg',
+    src: pardo2,
     alt: 'Porche exterior y deck de madera con cenefa decorativa',
     caption: 'Galería y deck de entrada con cenefas rústicas caladas y sombra natural.',
   },
@@ -186,7 +196,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g3',
     title: 'Vista Panorámica de las Cabañas & Parque',
     category: 'park',
-    src: '/src/assets/images/general/pardo3.jpeg',
+    src: pardo3,
     alt: 'Vista de las cabañas en el parque verde con troncos decorativos',
     caption: 'Amplio predio de césped verde con troncos decorativos y cabañas independientes.',
   },
@@ -194,7 +204,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g4',
     title: 'Porche Soleado & Leña para Salamandra',
     category: 'park',
-    src: '/src/assets/images/general/pardo4.jpeg',
+    src: pardo4,
     alt: 'Galería de entrada soleada con leña apilada y troncos decorativos',
     caption: 'Porche de madera soleado con leña lista para encender la salamandra.',
   },
@@ -202,7 +212,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g5',
     title: 'Parrilla Individual de Ladrillos',
     category: 'parrilla',
-    src: '/src/assets/images/general/pardo5.jpeg',
+    src: pardo5,
     alt: 'Parrilla rústica de ladrillo a la vista entre la frondosa vegetación',
     caption: 'Parrilla individual de ladrillos rodeada de exuberante vegetación autóctona.',
   },
@@ -210,7 +220,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g6',
     title: 'Mates al Aire Libre en la Galería',
     category: 'park',
-    src: '/src/assets/images/general/pardo6.jpeg',
+    src: pardo6,
     alt: 'Mate en calabaza, termo de acero y jugo en la mesa exterior de la cabaña',
     caption: 'Disfrutando de unos mates en la mesa de madera con vista al parque verde.',
   },
@@ -218,7 +228,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g7',
     title: 'Cálida Vista desde la Ventana Interior',
     category: 'interior',
-    src: '/src/assets/images/general/pardo7.jpeg',
+    src: pardo7,
     alt: 'Vista hacia el jardín exterior desde el marco de la ventana con tejido cálido',
     caption: 'Mirador desde la ventana interior con mantas tejidas y vista al parque.',
   },
@@ -226,7 +236,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g8',
     title: 'Vegetación Autóctona & Cabaña',
     category: 'park',
-    src: '/src/assets/images/general/pardo8.jpeg',
+    src: pardo8,
     alt: 'Hojas verdes de laurel nativo en primer plano con la cabaña al fondo',
     caption: 'La vegetación nativa de la Reserva de Biosfera rodeando las instalaciones.',
   },

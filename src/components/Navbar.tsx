@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import marcaBlanca from '../assets/logos/marca_blanca.png';
 import {
   Trees,
   ShieldCheck,
@@ -85,7 +86,7 @@ export default function Navbar() {
             className="flex items-center gap-2 tracking-tight text-white whitespace-nowrap shrink-0 group py-1"
           >
             <img
-              src="/src/assets/logos/marca_blanca.png"
+              src={marcaBlanca}
               alt="Casas Pardo Logo"
               className={`w-auto object-contain transition-all duration-300 group-hover:scale-105 ${
                 isScrolled ? 'h-9 sm:h-10 md:h-11' : 'h-11 sm:h-14 md:h-16'

@@ -1,6 +1,8 @@
 import React from 'react';
-import { ShieldCheck, Trees, Waves, Sparkles, ArrowRight, MessageCircle } from 'lucide-react';
+import { ShieldCheck, ArrowRight, MessageCircle } from 'lucide-react';
 import { CONTACT_INFO } from '../data/cabanasData';
+import heroVideo from '../assets/videos/hero.mp4';
+import heroPoster from '../assets/images/general/pardo0.jpeg';
 
 export default function Hero() {
   const whatsappUrl = `https://wa.me/${CONTACT_INFO.whatsappRaw}?text=${encodeURIComponent(
@@ -17,9 +19,9 @@ export default function Hero() {
           muted
           playsInline
           className="w-full h-full object-cover object-center scale-105 filter brightness-[0.70]"
-          poster="/src/assets/images/general/pardo0.jpeg"
+          poster={heroPoster}
         >
-          <source src="/src/assets/videos/hero.mp4" type="video/mp4" />
+          <source src={heroVideo} type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/60 to-stone-950/40" />
       </div>

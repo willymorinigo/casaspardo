@@ -1,6 +1,9 @@
 import React from 'react';
-import { Home, Users, CheckCircle2, Flame, Utensils, BedDouble, Trees } from 'lucide-react';
+import { Home, Users, CheckCircle2 } from 'lucide-react';
 import { CABIN_INCLUSIONS } from '../data/cabanasData';
+import pardo3 from '../assets/images/general/pardo3.jpeg';
+import pardo5 from '../assets/images/general/pardo5.jpeg';
+import pardo6 from '../assets/images/general/pardo6.jpeg';
 
 export default function CabanasOverview() {
   return (
@@ -25,7 +28,7 @@ export default function CabanasOverview() {
           <div className="lg:col-span-7 space-y-4">
             <div className="relative rounded-2xl overflow-hidden shadow-xl border border-stone-300/80 group">
               <img
-                src="/src/assets/images/general/pardo3.jpeg"
+                src={pardo3}
                 alt="Vista panorámica de las cabañas de madera en el parque verde de Casas Pardo"
                 className="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-500"
                 referrerPolicy="no-referrer"
@@ -43,7 +46,7 @@ export default function CabanasOverview() {
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-xl overflow-hidden shadow-md border border-stone-300/80 h-44 relative">
                 <img
-                  src="/src/assets/images/general/pardo5.jpeg"
+                  src={pardo5}
                   alt="Parrilla individual de ladrillos al aire libre"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -55,7 +58,7 @@ export default function CabanasOverview() {
 
               <div className="rounded-xl overflow-hidden shadow-md border border-stone-300/80 h-44 relative">
                 <img
-                  src="/src/assets/images/general/pardo6.jpeg"
+                  src={pardo6}
                   alt="Mates al aire libre en la galería de la cabaña"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
