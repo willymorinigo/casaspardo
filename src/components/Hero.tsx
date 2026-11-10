@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, ArrowRight, MessageCircle } from 'lucide-react';
+import { ArrowRight, MessageCircle } from 'lucide-react';
 import { CONTACT_INFO } from '../data/cabanasData';
 import heroVideo from '../assets/videos/hero.mp4';
 import heroPoster from '../assets/images/general/pardo0.jpeg';
@@ -28,11 +28,7 @@ export default function Hero() {
 
       {/* Content Container */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-8">
-        {/* UNESCO Biosphere Kicker - unboxed clean inline metadata */}
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#37560c]/80 border border-[#517e12]/50 text-[#eae8de] text-xs sm:text-sm font-medium mb-6 backdrop-blur-md shadow-sm">
-          <ShieldCheck className="w-4 h-4 text-[#679f17] shrink-0" />
-          <span>Reserva de Biosfera UNESCO · Punta Indio, Bs. As.</span>
-        </div>
+
 
         {/* Main Headline */}
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif-display font-medium text-white tracking-tight leading-[1.15] max-w-4xl mx-auto drop-shadow-md">
