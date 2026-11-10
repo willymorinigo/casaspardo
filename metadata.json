@@ -1,0 +1,6 @@
+{
+  "name": "Casas Pardo - Cabañas en Punta Indio",
+  "description": "Cabañas de descanso en la Reserva de Biosfera UNESCO de Punta Indio. Parque natural, tranquilidad y cercanía al río.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

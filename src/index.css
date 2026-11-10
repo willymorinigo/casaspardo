@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-pardo-green: #517e12;
+  --color-pardo-green-hover: #43690e;
+  --color-pardo-green-light: #679f17;
+  --color-pardo-green-dark: #37560c;
+  --color-pardo-bg: #eae8de;
+}
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #eae8de;
+    color: #292823;
+  }
+  h1, h2, h3, .font-serif-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}

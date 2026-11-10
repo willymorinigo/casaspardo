@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="40" fill="#517e12"/>
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#eae8de" stroke-width="4" stroke-dasharray="6 4"/>
+  <path d="M100 35 L145 75 H55 Z" fill="#eae8de"/>
+  <rect x="65" y="75" width="70" height="55" fill="#eae8de"/>
+  <rect x="85" y="95" width="30" height="35" fill="#517e12"/>
+  <path d="M100 135 C70 135 50 155 50 170 H150 C150 155 130 135 100 135 Z" fill="#679f17" opacity="0.8"/>
+  <text x="100" y="180" font-family="'Playfair Display', Georgia, serif" font-size="16" font-weight="bold" fill="#eae8de" text-anchor="middle" letter-spacing="1">CASAS PARDO</text>
+</svg>
